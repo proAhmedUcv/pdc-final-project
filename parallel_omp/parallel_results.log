@@ -1,0 +1,1251 @@
+OpenMP Parallel Experiments
+Dataset: ../dataset/data.csv
+============================================
+Threads=1 Schedule=static Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+
+Threads=1 Schedule=static Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.180 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.184 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.183 s
+----------------------------------------
+
+Threads=1 Schedule=static Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.188 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.200 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+
+Threads=1 Schedule=static Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.182 s
+----------------------------------------
+
+Threads=1 Schedule=dynamic Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.182 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.184 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.183 s
+----------------------------------------
+
+Threads=1 Schedule=dynamic Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+
+Threads=1 Schedule=dynamic Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.186 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.192 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.186 s
+----------------------------------------
+
+Threads=1 Schedule=dynamic Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.182 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.186 s
+----------------------------------------
+
+Threads=1 Schedule=guided Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.193 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.199 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.208 s
+----------------------------------------
+
+Threads=1 Schedule=guided Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.183 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.182 s
+----------------------------------------
+
+Threads=1 Schedule=guided Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.182 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.185 s
+----------------------------------------
+
+Threads=1 Schedule=guided Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.181 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.187 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 1
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.198 s
+----------------------------------------
+
+Threads=2 Schedule=static Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.096 s
+----------------------------------------
+
+Threads=2 Schedule=static Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=static Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.096 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=static Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.096 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+
+Threads=2 Schedule=dynamic Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=dynamic Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.093 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=dynamic Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.096 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+
+Threads=2 Schedule=dynamic Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.097 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+
+Threads=2 Schedule=guided Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=guided Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.096 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.097 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+
+Threads=2 Schedule=guided Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.097 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+
+Threads=2 Schedule=guided Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.095 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.094 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 2
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.099 s
+----------------------------------------
+
+Threads=4 Schedule=static Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+
+Threads=4 Schedule=static Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+
+Threads=4 Schedule=static Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.056 s
+----------------------------------------
+
+Threads=4 Schedule=static Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.056 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+
+Threads=4 Schedule=dynamic Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+
+Threads=4 Schedule=dynamic Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+
+Threads=4 Schedule=dynamic Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.057 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+
+Threads=4 Schedule=dynamic Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+
+Threads=4 Schedule=guided Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+
+Threads=4 Schedule=guided Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.056 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+
+Threads=4 Schedule=guided Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.051 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+
+Threads=4 Schedule=guided Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.054 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.052 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 4
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.053 s
+----------------------------------------
+
+Threads=8 Schedule=static Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=static Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=static Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=static Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 1, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=dynamic Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+
+Threads=8 Schedule=dynamic Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.044 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=dynamic Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+
+Threads=8 Schedule=dynamic Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 2, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.040 s
+----------------------------------------
+
+Threads=8 Schedule=guided Chunk=1
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.044 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=guided Chunk=10
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.041 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 10
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+
+Threads=8 Schedule=guided Chunk=100
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.042 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 100
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
+Threads=8 Schedule=guided Chunk=1000
+  Trial 1...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 2...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+  Trial 3...
+Rows read: 1296675
+Threads used: 8
+Schedule: 3, Chunk size: 1000
+Suspicious (Transaction Frequency): 550733
+Suspicious (Unusual Categories):    161645
+Parallel elapsed: 0.043 s
+----------------------------------------
+
